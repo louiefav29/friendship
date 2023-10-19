@@ -1,0 +1,87 @@
+html {
+  font-size: 62.5%; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.container {
+  max-width: 41.4rem;
+  background-color: #5c5bcd;
+  margin: 0 auto;
+  font-family: "lexend mega", sans-serif;
+  font-weight: 700;
+  color: #000; }
+
+.border {
+  height: 8.2rem;
+  background-color: #8a366e;
+  border: solid #000 0.3rem; }
+
+.header {
+  padding: 0 3.5rem; }
+  .header .header-box {
+    margin-top: 11.8rem; }
+    .header .header-box img {
+      height: 23.6rem;
+      width: 31.5rem;
+      border: solid #000 0.4rem;
+      box-shadow: 0.4rem 0.6rem #000;
+      border-radius: 1.5rem; }
+    .header .header-box .text-box {
+      position: relative; }
+      .header .header-box .text-box h1 {
+        font-size: 1.6rem;
+        padding: 1.8rem 0 0 2.9rem;
+        width: 22.4rem;
+        height: 13.2rem;
+        border: solid #000 0.3rem;
+        background-color: #40a5e3;
+        position: absolute;
+        top: -9.1rem;
+        left: 6.9rem; }
+      .header .header-box .text-box p {
+        position: absolute;
+        width: 23.7rem;
+        height: 11rem;
+        background-color: #fb9ce7;
+        font-size: 1.1rem;
+        border: solid #000 0.3rem;
+        padding: 2.2rem 1.7rem;
+        left: 10.3rem;
+        top: -2.3rem;
+        box-shadow: 0.4rem 0.6rem #000; }
+  .header .logo-box {
+    position: relative; }
+    .header .logo-box h1 {
+      background-color: #251132;
+      color: #fff;
+      width: 23.1rem;
+      font-size: 2.5rem;
+      padding: 2.2rem 1.2rem;
+      position: absolute;
+      top: -17.1rem; }
+
+.main {
+  padding: 0 3.5rem;
+  margin-top: 17.9rem; }
+  .main .profile-photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.6rem; }
+    .main .profile-photos .photo-box {
+      border: solid #000 0.3rem;
+      background-color: #000;
+      box-shadow: #000 0.4rem 0.6rem;
+      border-radius: 0.5rem; }
+      .main .profile-photos .photo-box img {
+        height: 15.5rem;
+        width: 15.3rem; }
+      .main .profile-photos .photo-box p {
+        font-size: 1.1rem;
+        padding: 1.1rem;
+        color: #fff; }
+
+.text-cap {
+  text-transform: capitalize; }
